@@ -21,8 +21,10 @@ class Circulo {
     ellipse(posX,posY,tam-30,tam-30);
   }
   
-  void dibujarSat( int posX, int posY, int tono, int sat){
-        
+
+  
+  void dibujarSat( int posX, int posY, color tono, color sat){
+      
     fill(tono, sat,100);
     ellipse(posX,posY,tam,tam);
     fill(tono, sat,80);
@@ -30,5 +32,7 @@ class Circulo {
     fill(tono, sat,59);
     ellipse(posX,posY,tam-30,tam-30);
   }
+  
+  
   
 }
